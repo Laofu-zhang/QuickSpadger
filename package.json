@@ -14,17 +14,19 @@
       "ecmaVersion": 6,
       "sourceType": "module",
       "ecmaFeatures": {
-          "jsx": true
-        }
-      },
-      "rules": {
-          "semi": 2
-      },
-      "env": {
-        "node": true
+        "jsx": true
       }
+    },
+    "rules": {
+      "semi": 2
+    },
+    "env": {
+      "node": true
+    }
   },
-  "eslintIgnore": ["node_modules"],
+  "eslintIgnore": [
+    "node_modules"
+  ],
   "dependencies": {
     "debug": "^4.1.1",
     "koa": "^2.7.0",
@@ -36,6 +38,7 @@
     "koa-router": "^7.4.0",
     "koa-static": "^5.0.0",
     "koa-views": "^6.2.0",
+    "koa2-cors": "^2.0.6",
     "lodash": "^4.17.20",
     "mongoose": "^5.11.15",
     "pug": "^2.0.3"
